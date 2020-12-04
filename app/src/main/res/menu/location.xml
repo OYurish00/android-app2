@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/charl"
+        android:title="Charlottesville"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item android:id="@+id/fourth"
+                android:title="108 4th Street"/>
+
+            <item android:id="@+id/eighth"
+                android:title="103 8th Street">
+                <menu>
+                    <item android:id="@+id/eighthn"
+                        android:title="North side"/>
+
+                    <item android:id="@+id/eighths"
+                        android:title="South side"/>
+                </menu>
+            </item>
+
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/staun"
+        android:title="Staunton"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item android:id="@+id/wbev"
+                android:title="West Beverley"/>
+
+            <item android:id="@+id/naug"
+                android:title="N Augusta">
+
+                <menu>
+
+                    <item android:id="@+id/nauge"
+                        android:title="East side"/>
+
+                    <item android:id="@+id/naugw"
+                        android:title="West side"/>
+
+                </menu>
+
+            </item>
+
+        </menu>
+
+    </item>
+</menu>
